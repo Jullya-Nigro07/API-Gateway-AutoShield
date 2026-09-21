@@ -18,7 +18,7 @@ public class CloudgatewayApplication {
 		return builder.routes()
 				.route("client-service", route -> route
 						.path("/clients/**")
-						.uri("lb: //CLIENTE"))
+						.uri("lb://Cliente"))
 				.build();
 	}
 }
