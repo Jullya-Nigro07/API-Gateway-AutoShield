@@ -1,4 +1,6 @@
-# API Gateway - AutoShield
+# API Gateway🔀 | AutoShield
+
+![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow)
 
 ---
 API Gateway do AutoShield, responsável por receber as requisições e encaminhá-las para os microsserviços da aplicação.
