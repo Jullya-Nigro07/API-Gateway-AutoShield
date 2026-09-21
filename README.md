@@ -13,9 +13,20 @@ Eureka Server: https://github.com/Jullya-Nigro07/AutoShield.git
 
 ## Como executar
 - Rode primeiro o Eureka Server.
+
+
 - Acesse http://localhost:8761 e verifique se o servidor está funcionando.
+
+
 - Inicie os microsserviços que serão utilizados pelo Gateway.
-  - https://github.com/Jullya-Nigro07/Microservice-Cliente-AutoShield.git
+  - CLIENTE: https://github.com/Jullya-Nigro07/Microservice-Cliente-AutoShield.git
+  - VEÍCULO: Em construção..
+  - SEGURO: Em construção..
+
+
 - Execute esta aplicação.
+
+
+---
 
 O Gateway utiliza o Service Discovery do Eureka para localizar os microsserviços e encaminhar as requisições para eles.
